@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class LinearSearchRecursion {
 
         static int  index = 0;
