@@ -61,6 +61,24 @@ public class LL {
     }
 
 
+    public void reverseLinkedList(LL LinkedList){
+
+        Node prev = null;
+        Node present = LinkedList.head;
+        Node next = present.next;
+
+        while(present != null){
+            present.next = prev;
+            prev = present;
+            present = next;
+            if(next!=null){
+                next= present.next;
+            }
+
+        }
+        LinkedList.head = prev;
+    }
+
     private class Node{
 
         private int value;

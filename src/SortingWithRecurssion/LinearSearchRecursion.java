@@ -1,4 +1,4 @@
-package LinkedList;
+package SortingWithRecurssion;
 
 public class LinearSearchRecursion {
 
